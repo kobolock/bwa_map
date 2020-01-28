@@ -1,0 +1,16 @@
+PROJECT_dir: "/data1/scratch/saquen/PROJECTS/bwa_map/"
+
+#SAMPLES:  "/data1/scratch/saquen/PROJECTS/bwa_map/config/data.json"
+
+samples:
+  ADN239-34: 
+    - data/ADN239-34_R1.fastq.gz
+    - data/ADN239-34_R2.fastq.gz
+  ADN244-01:
+    - data/ADN244-01_R1.fastq.gz
+    - data/ADN244-01_R2.fastq.gz
+
+# path or URL to sample sheet (TSV format, columns: sample, condition, ...)
+#samples: samples.tsv
+#units: units.tsv
+
