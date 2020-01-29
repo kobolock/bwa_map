@@ -1,5 +1,7 @@
-name: bwa_mem
+name: mapping
 channels:
  - bioconda
+ - conda-forge
 dependencies:
- - bwa=0.7.17
+ - bwa =0.7.17
+ - samtools =1.9
